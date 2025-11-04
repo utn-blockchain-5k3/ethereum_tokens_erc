@@ -1,0 +1,22 @@
+{
+  "name": "erc20-solidity-educativo",
+  "version": "1.0.0",
+  "description": "Implementación educativa de ERC-20 con Solidity y Hardhat",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat run scripts/deploy.ts --network hardhat",
+    "deploy:amoy": "npx hardhat run scripts/deploy.ts --network amoy"
+  },
+  "keywords": ["ethereum", "solidity", "erc20", "hardhat", "blockchain", "educativo"],
+  "author": "UTN - Diplomatura Blockchain 2025",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2"
+  }
+}
