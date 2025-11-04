@@ -1,4 +1,4 @@
-# ERC Tokens: Ethereum vs Hyperledger Fabric 🎓
+# ERC-20 Tokens: Ethereum vs Hyperledger Fabric 🎓
 
 Proyecto educativo para implementar tokens ERC-20 en **Ethereum** (Solidity) y **Hyperledger Fabric** (JavaScript), comparando ambas plataformas blockchain.
 
